@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60FE8010-1C47-A7B4-1A9C-756146B6BB73" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_MUSICIANS">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>57F85A59-4997-88E4-6228-D5F69DA40ADF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PK_MUSICIAN" id="1E7F21F3-2B90-B62D-E3BF-EABAF7B5FCDE">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Llave primaria del músico]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>61044004-90C2-18F7-DC7F-42B55ED09FA4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_BORN" id="AA698AE7-F4BB-FEDC-2417-FBD7492D6D27">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de nacimiento del músico]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>E54DFBAA-722A-5876-1632-D3F95B158DAC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DEATH" id="94E77859-E0F0-BEBF-7372-CC50C12F1E65">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la que murio]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>E01EC601-30F0-AA29-D29F-C9F015BEF0E1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIOGRHY" id="4D2255B4-AD8F-F53D-E56D-CABD7DE4EE34">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Una biografia corta de la vida del musico]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>62E11700-E0B2-C6F5-A06B-9D32C287690B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E6D96AD-666F-3306-2D08-48EE40F5CD5C" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_MUSICIANS_PK">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>6D41F2E6-1430-9505-E8AD-56E44A4F946D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E7F21F3-2B90-B62D-E3BF-EABAF7B5FCDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

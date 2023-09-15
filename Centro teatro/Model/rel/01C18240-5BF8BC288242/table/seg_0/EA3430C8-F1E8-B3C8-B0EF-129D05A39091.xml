@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA3430C8-F1E8-B3C8-B0EF-129D05A39091" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_GENRES">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>F1719E74-B645-56A5-BBED-215C8886224A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PK_GENRE" id="E270650F-22C6-333E-A482-2C09CD0B8511">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Llave primaria de los generos musicales]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>138254D4-9149-289C-BC3F-862E0DB86504</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAR_CHARCTS" id="618E62EA-60AA-3056-0DCB-0122D74C506E">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Caracteristicas o descripcion del genero]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>BBCB746A-2F09-BC30-0BEA-39253898C3B6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGIN" id="89B52B2D-7C5F-2032-AB5F-6814377CA753">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Origen del genero]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>3A383557-4078-CB16-D23A-AE1FEC9B5FA6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_MUSICIAN" id="04C0C0EC-A800-A8B6-A259-722717FC755D">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relación entre la tabla generos con la tabla de musicos]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>DDFF0005-23F6-D9EA-870A-99F5418F2212</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDEF7DD7-3777-1B51-FB8A-74C90C8DB542" referredColumn="1E7F21F3-2B90-B62D-E3BF-EABAF7B5FCDE"/>
+</associations>
+</Column>
+<Column name="FK_MUSCL_ISTM" id="21FBA336-561D-B77A-543C-66BC590F4E23">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relación entre la tabla de generos con la tabla de instrumentos musicales]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>A13D4553-6FE9-DE76-B28E-0C46BFD54529</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A05DFC6-9F8D-2949-1219-54463085CB93" referredColumn="BBE1E946-89EB-F601-2661-50AA8F0F621E"/>
+</associations>
+</Column>
+<Column name="FK_FAM_WORK" id="9B3D61BE-C4C7-FC6E-F77C-FA11092477B2">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relación entre la tabla de generos con la tabla de obras más famosas]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>D9EADE52-88F9-DB67-ECB7-FC3DABCF6341</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACD5643A-6F0D-5B92-655C-8ED814C568C3" referredColumn="D52FE377-D1DC-D326-F9B9-95200188DF60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="650DD492-391E-15ED-ABF3-D4F518398780" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_GENRES_PK">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>7020A4A0-6A27-4F1F-3795-8245E1F05DA2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E270650F-22C6-333E-A482-2C09CD0B8511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEF8DD23-1492-02FC-2CDA-82A5BED013C8" name="FK_GENRES_FAMWORKS_FKFAMWORK">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B3D61BE-C4C7-FC6E-F77C-FA11092477B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6DFC7B0-CB91-7410-B407-9580D50969C3" name="FK_GENRES_MUSCLISTMS_FKMUSCLISTMS">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21FBA336-561D-B77A-543C-66BC590F4E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D844B4-2D20-0155-D9AD-745CB4A75B5D" name="FK_GENRES_MUSICIANS_FKMUSICIAN">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04C0C0EC-A800-A8B6-A259-722717FC755D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

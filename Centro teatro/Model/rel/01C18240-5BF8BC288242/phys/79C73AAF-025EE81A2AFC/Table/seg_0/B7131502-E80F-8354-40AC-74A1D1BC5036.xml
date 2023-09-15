@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_FAM_WORKS" directorySegmentName="seg_0" id="B7131502-E80F-8354-40AC-74A1D1BC5036">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A534CA2F-B62F-1B06-02BF-418EEA994F7A</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SHEET_MSC" id="2661482C-18F3-1B00-D5C4-CC8C5774A75A">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTHOR" id="A58B600E-4075-9EDC-5215-7F02A34150D6">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR_COMPLT" id="CACD205C-7D81-531B-E4BC-623AB9DF0059">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PK_FAM_WORK" id="D52FE377-D1DC-D326-F9B9-95200188DF60">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_FAM_WORKS_PK" id="34BDA6CC-015C-5236-40A4-3E629CA213D0">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<segment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<indexSegment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

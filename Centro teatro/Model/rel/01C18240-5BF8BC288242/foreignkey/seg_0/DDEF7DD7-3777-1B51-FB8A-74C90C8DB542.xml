@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDEF7DD7-3777-1B51-FB8A-74C90C8DB542" containerWithKeyObject="EA3430C8-F1E8-B3C8-B0EF-129D05A39091" localFKIndex="A3D844B4-2D20-0155-D9AD-745CB4A75B5D" name="FK_GENRES_MUSICIANS_FKMUSICIAN">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>94421795-DADD-80C9-B0CF-5D5ABA7C9EA0</importedID>
+<referredTableLongName>C##CRIST.TB_MUSICIANS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>60FE8010-1C47-A7B4-1A9C-756146B6BB73</referredTableID>
+<keyObject>7E6D96AD-666F-3306-2D08-48EE40F5CD5C</keyObject>
+<referredKeyID>7E6D96AD-666F-3306-2D08-48EE40F5CD5C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PK_MUSICIAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

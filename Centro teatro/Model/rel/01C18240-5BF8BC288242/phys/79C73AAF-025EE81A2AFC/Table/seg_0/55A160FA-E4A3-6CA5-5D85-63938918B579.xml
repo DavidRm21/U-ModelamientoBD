@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_MUSCL_ISTMS" directorySegmentName="seg_0" id="55A160FA-E4A3-6CA5-5D85-63938918B579">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A534CA2F-B62F-1B06-02BF-418EEA994F7A</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MATRIAL" id="2D301F31-F020-C235-7B71-752CF3666EA5">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PK_MUSCL_ISTM" id="BBE1E946-89EB-F601-2661-50AA8F0F621E">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYP_ISTMS" id="CCA364BA-6F0D-82FE-413E-AF2BDB099748">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CRTR" id="DA17DE0C-7C7D-E7F5-E980-BD5903A6043F">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHOTO_URL" id="E009E4CF-7B6F-BE0A-00B4-8A83D0FD9144">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLC_CRTR" id="E4C0A2BC-9598-CD0C-24F1-4A14CC7A7524">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_MUSCL_ISTMS_PK" id="048DA8BA-C4C4-778D-F057-A9764FEBA3C9">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<segment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<indexSegment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

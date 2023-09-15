@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A33EF550-D64D-03E0-37C4-B12AE448B7DA" containerWithKeyObject="CFFC56A2-654E-B283-ED70-92869D7C39F8" localFKIndex="BA07210D-BDC5-E4EB-EEE8-822126ADF86A" name="FK_ERAS_GENRES_FKGENRE">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>C08EB082-BBB9-47A1-0578-748FFFCB0214</importedID>
+<referredTableLongName>C##CRIST.TB_GENRES</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>EA3430C8-F1E8-B3C8-B0EF-129D05A39091</referredTableID>
+<keyObject>650DD492-391E-15ED-ABF3-D4F518398780</keyObject>
+<referredKeyID>650DD492-391E-15ED-ABF3-D4F518398780</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PK_GENRE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_GENRES" directorySegmentName="seg_0" id="EA3430C8-F1E8-B3C8-B0EF-129D05A39091">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A534CA2F-B62F-1B06-02BF-418EEA994F7A</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FK_MUSICIAN" id="04C0C0EC-A800-A8B6-A259-722717FC755D">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FK_MUSCL_ISTM" id="21FBA336-561D-B77A-543C-66BC590F4E23">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAR_CHARCTS" id="618E62EA-60AA-3056-0DCB-0122D74C506E">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORIGIN" id="89B52B2D-7C5F-2032-AB5F-6814377CA753">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FK_FAM_WORK" id="9B3D61BE-C4C7-FC6E-F77C-FA11092477B2">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PK_GENRE" id="E270650F-22C6-333E-A482-2C09CD0B8511">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_GENRES_MUSICIANS_FKMUSICIAN" id="A3D844B4-2D20-0155-D9AD-745CB4A75B5D">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_GENRES_MUSCLISTMS_FKMUSCLISTMS" id="B6DFC7B0-CB91-7410-B407-9580D50969C3">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_GENRES_FAMWORKS_FKFAMWORK" id="EEF8DD23-1492-02FC-2CDA-82A5BED013C8">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_GENRES_PK" id="650DD492-391E-15ED-ABF3-D4F518398780">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<segment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<indexSegment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

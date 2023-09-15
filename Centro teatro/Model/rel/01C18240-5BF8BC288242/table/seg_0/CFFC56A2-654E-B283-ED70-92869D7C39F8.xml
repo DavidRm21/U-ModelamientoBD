@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFFC56A2-654E-B283-ED70-92869D7C39F8" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_ERAS">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>03A28BF8-5733-048D-1DAD-D84B6D82DA28</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PK_ERA" id="652FEA97-2C6C-E820-691A-9DB18C91DAE0">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Llave primaria de las epocas de la historia de la musica]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>E9955834-F9A5-28F2-6D35-87B17015BB4F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RLVT_CHARCTS" id="510D2A1C-4F94-883F-576C-227EC9219982">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Texto para las caracteristicas relevantes de la epoca]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>AD1E938A-1317-6111-DABC-302B5BD38BDD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_PERIOD" id="DAC2F495-1D3E-6372-26DE-6BF4CC255310">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de inicio de la epoca]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>6741FE22-B8D0-68DD-91BC-E3E0D08088D6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_PERIOD" id="125DAB43-0D39-C0BC-5A4C-DA0D846D87B1">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de fin de la epoca]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>068C6F91-68E6-AEAA-B688-523F8BBE8E66</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_GENRE" id="EF25516A-B9D2-78B7-BA63-F81904479F18">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relacion con la tabla generos]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>8DF723A8-3C6C-20FF-80BE-E866AF06E342</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A33EF550-D64D-03E0-37C4-B12AE448B7DA" referredColumn="E270650F-22C6-333E-A482-2C09CD0B8511"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8DA0693-89ED-5A3F-89FD-3CD12970FA5C" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_ERAS_PK">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>41B378DD-802C-70F4-F862-ACB79421EB87</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="652FEA97-2C6C-E820-691A-9DB18C91DAE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA07210D-BDC5-E4EB-EEE8-822126ADF86A" name="FK_ERAS_GENRES_FKGENRE">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF25516A-B9D2-78B7-BA63-F81904479F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

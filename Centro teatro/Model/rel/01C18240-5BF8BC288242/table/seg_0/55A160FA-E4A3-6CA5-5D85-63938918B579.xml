@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55A160FA-E4A3-6CA5-5D85-63938918B579" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_MUSCL_ISTMS">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>AE24DEDD-3369-D49E-8131-83382B7897B8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PK_MUSCL_ISTM" id="BBE1E946-89EB-F601-2661-50AA8F0F621E">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Llave primaria de los instrumentos musicales]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>797AB200-1E0D-5A4C-B045-503E1AECCAA5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHOTO_URL" id="E009E4CF-7B6F-BE0A-00B4-8A83D0FD9144">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen de referencia del intrumento musical]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>4A20D18C-CDBD-32BD-2273-D61079AAADE2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLC_CRTR" id="E4C0A2BC-9598-CD0C-24F1-4A14CC7A7524">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Lugar de los creadores]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>3881745E-D83C-EFCB-C89C-D98BD6CAFB1B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRTR" id="DA17DE0C-7C7D-E7F5-E980-BD5903A6043F">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del creador]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>93FB3494-063E-7A08-0A12-0AD63720E93E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP_ISTMS" id="CCA364BA-6F0D-82FE-413E-AF2BDB099748">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de instrumento  (percusión, viento, etc)]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>D972322D-C756-76AD-9FC6-7E5811E6F38D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATRIAL" id="2D301F31-F020-C235-7B71-752CF3666EA5">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Material del que está hecho el instrumento]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>3B83B663-7158-28D4-BDD8-99EADD1BB9F8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="048DA8BA-C4C4-778D-F057-A9764FEBA3C9" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_MUSCL_ISTMS_PK">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>9586FA48-4098-1F5F-D677-0F8A4C6ED21A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBE1E946-89EB-F601-2661-50AA8F0F621E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

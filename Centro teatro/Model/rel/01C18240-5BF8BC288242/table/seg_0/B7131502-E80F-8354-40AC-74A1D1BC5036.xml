@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7131502-E80F-8354-40AC-74A1D1BC5036" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_FAM_WORKS">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>8544626F-3C05-0062-C61E-30B3A0185A60</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PK_FAM_WORK" id="D52FE377-D1DC-D326-F9B9-95200188DF60">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Llave primaria de las obras más famosas]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>77A78822-C1B7-AD61-D3B8-2E84D2D43EE3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR_COMPLT" id="CACD205C-7D81-531B-E4BC-623AB9DF0059">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Annio en la que se completo la obra]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>F9BFFD79-8759-184F-6B2D-874BF9081235</importedID>
+<constraintName>CHK_YEARCOMPLT</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="year_complt &lt; 2023"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="year_complt &lt; 2023"/>
+</checkConstraint>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTHOR" id="A58B600E-4075-9EDC-5215-7F02A34150D6">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Autores que participaron en la obra]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>D4CBFC5B-D615-7AB9-B647-A57A84F9FC08</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHEET_MSC" id="2661482C-18F3-1B00-D5C4-CC8C5774A75A">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Partituras de la obra]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>C7E257B0-1800-72AC-A06F-2ED8B56FC17C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34BDA6CC-015C-5236-40A4-3E629CA213D0" schemaObject="92A32326-F9D7-2501-AAA8-B374C5B3C6D2" name="TB_FAM_WORKS_PK">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>C16F72DA-AFC7-4253-53A7-99883134718B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D52FE377-D1DC-D326-F9B9-95200188DF60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

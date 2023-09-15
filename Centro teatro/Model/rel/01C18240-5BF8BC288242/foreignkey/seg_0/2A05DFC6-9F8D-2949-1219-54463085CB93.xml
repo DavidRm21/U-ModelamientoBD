@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2A05DFC6-9F8D-2949-1219-54463085CB93" containerWithKeyObject="EA3430C8-F1E8-B3C8-B0EF-129D05A39091" localFKIndex="B6DFC7B0-CB91-7410-B407-9580D50969C3" name="FK_GENRES_MUSCLISTMS_FKMUSCLISTMS">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<importedID>DE32E94B-BD9A-DFA4-BF78-CB84081A7615</importedID>
+<referredTableLongName>C##CRIST.TB_MUSCL_ISTMS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>55A160FA-E4A3-6CA5-5D85-63938918B579</referredTableID>
+<keyObject>048DA8BA-C4C4-778D-F057-A9764FEBA3C9</keyObject>
+<referredKeyID>048DA8BA-C4C4-778D-F057-A9764FEBA3C9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PK_MUSCL_ISTM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

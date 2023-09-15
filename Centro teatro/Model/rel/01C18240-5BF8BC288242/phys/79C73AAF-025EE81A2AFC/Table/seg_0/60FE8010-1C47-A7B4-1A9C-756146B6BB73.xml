@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_MUSICIANS" directorySegmentName="seg_0" id="60FE8010-1C47-A7B4-1A9C-756146B6BB73">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A534CA2F-B62F-1B06-02BF-418EEA994F7A</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PK_MUSICIAN" id="1E7F21F3-2B90-B62D-E3BF-EABAF7B5FCDE">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BIOGRHY" id="4D2255B4-AD8F-F53D-E56D-CABD7DE4EE34">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_DEATH" id="94E77859-E0F0-BEBF-7372-CC50C12F1E65">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_BORN" id="AA698AE7-F4BB-FEDC-2417-FBD7492D6D27">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_MUSICIANS_PK" id="7E6D96AD-666F-3306-2D08-48EE40F5CD5C">
+<createdBy>crisd</createdBy>
+<createdTime>2023-09-14 21:19:45 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>92A32326-F9D7-2501-AAA8-B374C5B3C6D2</schemaObject>
+<segment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</segment>
+<tableSpace>772611EE-313A-7883-4F69-776A757D1A16</tableSpace>
+<indexSegment>EE87F2DA-6E86-FFC3-1ABB-16C6994C64FA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
